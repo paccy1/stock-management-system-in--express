@@ -1,0 +1,33 @@
+{
+  "name": "stock-management-system-in--express",
+  "version": "1.0.0",
+  "description": "used to store",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paccy1/stock-management-system-in--express.git"
+  },
+  "keywords": [
+    "nodemon"
+  ],
+  "author": "paccy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paccy1/stock-management-system-in--express/issues"
+  },
+  "homepage": "https://github.com/paccy1/stock-management-system-in--express#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "joi-password-complexity": "^5.2.0",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
