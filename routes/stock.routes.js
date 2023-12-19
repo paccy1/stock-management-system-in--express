@@ -1,5 +1,5 @@
 const express = require('express');
-const stockRoutes = express.Routers();
+const stockRoutes = express.Router();
 const { create,  findById, list, remove, update  } = require('../controllers/stock.controllers');
 
 stockRoutes.get('/list', list);

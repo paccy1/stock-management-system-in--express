@@ -1,5 +1,5 @@
 const express = require('express');
-const allRoutes = express.Routes();
+const allRoutes = express.Router();
 
 const stockRoutes = require('./stock.routes');
 
