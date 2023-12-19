@@ -1,6 +1,4 @@
-const stockModel = require('../models/stock.model');
-const stockModel = require('../models/stock.model'); 
-
+const stockModel = require('../models/stock.models');
 const create = async (req, res, next) => { 
     try {
         const newItem = new stockModel(req.body);
